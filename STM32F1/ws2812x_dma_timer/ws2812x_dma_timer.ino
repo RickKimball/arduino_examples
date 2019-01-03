@@ -4,6 +4,8 @@
    Generate a ws281x compatible pulse train using PWM timer and DMA
    provided duty cycle data.  Connect pin PA1 to the DIN of a ws281x
    led strip and watch the animation.
+   
+   Compatible with the libmaple/stm32duino core @ https://github.com/rogerclarkmelbourne/Arduino_STM32/
 
    2018-07-07 - RRK simplified using RGB values, compute T0/T1 based on F_CPU
    2018-07-05 - RRK reworked to avoid interrupt
